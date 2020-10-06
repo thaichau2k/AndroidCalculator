@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearFather"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingVertical="20sp"
+            android:text="@string/calculator"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/ResultField"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_gravity="center_horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="88dp" />
+
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:text="AC"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="+/-"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="%"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text=":"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Linear2"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Linear3"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Linear4"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Linear5"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:textAlignment="textStart"
+                android:paddingStart="42dp"
+                android:text="0"
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle"
+                android:paddingLeft="42dp"
+                android:layout_gravity="start" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="."
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="match_parent"
+                android:text="="
+                android:textSize="30sp"
+                tools:ignore="ButtonStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
